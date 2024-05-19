@@ -1,0 +1,14 @@
+.container {
+  padding: 30px 40px;
+}
+.items {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  height: 200px !important; /* Set the desired fixed height */
+  object-fit: cover !important; /* Ensures the image covers the element while maintaining its aspect ratio */
+}
